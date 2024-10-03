@@ -2,6 +2,7 @@
 
 This is a backend assignment built using **Node.js**, **Express**, **Sequelize**, and **MySQL** to create a user and address registration form. The form allows users to submit their name and address, which is then saved in a MySQL database with a one-to-many relationship between users and addresses.
 
+##Enter your Own Root Password in db.config.js to word this project correctly
 ## Table of Contents
 
 1. [Technologies Used](#technologies-used)
@@ -39,3 +40,4 @@ This is a backend assignment built using **Node.js**, **Express**, **Sequelize**
 ```bash
 git clone https://github.com/Ajayraj1515/Smook_Tree_Backend_Assignment.git
 cd Smook_Tree_Backend_Assignment
+
