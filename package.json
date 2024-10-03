@@ -1,0 +1,17 @@
+{
+  "name": "smoketrees-digital_assignmnet",
+  "version": "1.0.0",
+  "description": "Assignment to store user and address using Node.js, Express, Sequelize, and MySQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.6.5",
+    "mysql2": "^2.3.3",  
+    "body-parser": "^1.19.0"
+  }
+}
