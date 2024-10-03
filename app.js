@@ -6,15 +6,13 @@ const path = require('path');
 
 const app = express();
 
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(bodyParser.json());
 
-
 app.use(express.static(path.join(__dirname, 'views')));
 
-
 app.use(userRoutes);
-
 
 db.sequelize.sync().then(() => {
   console.log("Database synced successfully!");
